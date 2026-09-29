@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MotoCar — Politique de confidentialité</title>
+<style>
+  :root {
+    --navy: #1E5631;
+    --accent: #2E8B57;
+    --grey: #595959;
+    --light: #EAF3EC;
+    --bg: #ffffff;
+    --text: #1c1c1c;
+    --border: #d8e6dc;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #14181a;
+      --text: #e8ece9;
+      --light: #1c2a20;
+      --border: #2c3a30;
+      --grey: #a9b3ad;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #14181a;
+    --text: #e8ece9;
+    --light: #1c2a20;
+    --border: #2c3a30;
+    --grey: #a9b3ad;
+  }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.55;
+  }
+  .wrap {
+    max-width: 780px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  header { margin-bottom: 32px; }
+  h1 {
+    font-size: 2rem;
+    margin: 0 0 4px;
+    color: var(--navy);
+    font-weight: 800;
+  }
+  .subtitle { color: var(--grey); font-size: 1.05rem; margin: 0 0 10px; }
+  .badge {
+    display: inline-block;
+    font-size: 0.8rem;
+    font-style: italic;
+    color: var(--accent);
+    background: var(--light);
+    border: 1px solid var(--border);
+    padding: 6px 12px;
+    border-radius: 6px;
+  }
+  h2 {
+    color: var(--navy);
+    font-size: 1.3rem;
+    margin-top: 40px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--navy);
+  }
+  p { margin: 12px 0; }
+  ul { margin: 8px 0; padding-left: 22px; }
+  li { margin: 6px 0; }
+  .note {
+    font-style: italic;
+    color: var(--grey);
+    font-size: 0.92rem;
+    background: var(--light);
+    border-left: 3px solid var(--accent);
+    padding: 10px 14px;
+    border-radius: 4px;
+    margin: 14px 0;
+  }
+  .table-wrap { overflow-x: auto; margin: 16px 0; }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 480px;
+    font-size: 0.92rem;
+  }
+  th, td {
+    border: 1px solid var(--border);
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    background: var(--navy);
+    color: #fff;
+    font-weight: 700;
+  }
+  tr:nth-child(even) td:first-child,
+  td.label {
+    background: var(--light);
+    font-weight: 600;
+    color: var(--navy);
+  }
+  footer {
+    margin-top: 48px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    color: var(--grey);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>MotoCar</h1>
+    <p class="subtitle">Politique de confidentialité</p>
+    <span class="badge">Version projet — à valider par un conseil juridique avant publication</span>
+  </header>
+
+  <h2>1. Objet</h2>
+  <p>La présente politique décrit la manière dont MotoCar collecte, utilise, partage et protège les données à caractère personnel des utilisateurs (passagers et conducteurs) de l'application, conformément à la loi n°2017-20 du 20 avril 2018 portant Code du Numérique en République du Bénin (Livre 5, telle que révisée par la loi n°2020-35 du 6 janvier 2021), sous le contrôle de l'Autorité de Protection des Données Personnelles (APDP).</p>
+
+  <h2>2. Responsable du traitement</h2>
+  <p>MotoCar est édité par ServLink, immatriculée au Registre du Commerce et du Crédit Mobilier sous le numéro RCCM RB/ABC/26 B 11389 du 30 avril 2026, IFU 3202670667616, dont le siège est situé à Abomey-Calavi, Tankpè vers Maria Gléta, République du Bénin. ServLink agit en qualité de responsable du traitement des données collectées via l'application MotoCar.</p>
+
+  <h2>3. Données collectées</h2>
+  <p>Les catégories de données suivantes sont collectées selon le profil de l'utilisateur :</p>
+  <div class="table-wrap">
+  <table>
+    <thead>
+      <tr><th>Catégorie</th><th>Passager</th><th>Conducteur</th></tr>
+    </thead>
+    <tbody>
+      <tr><td class="label">Identité</td><td>Nom, numéro de téléphone</td><td>Nom, téléphone, pièce d'identité, photo</td></tr>
+      <tr><td class="label">Habilitation à conduire</td><td>—</td><td>Permis de conduire, immatriculation du véhicule</td></tr>
+      <tr><td class="label">Localisation</td><td>Position GPS en temps réel pendant l'utilisation de l'app</td><td>Position GPS en temps réel pendant l'utilisation de l'app</td></tr>
+      <tr><td class="label">Usage du service</td><td>Historique de trajets</td><td>Historique de trajets</td></tr>
+      <tr><td class="label">Données financières</td><td>Solde et transactions du portefeuille (wallet)</td><td>Solde et transactions du portefeuille (wallet)</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h2>4. Finalités du traitement</h2>
+  <ul>
+    <li>Mise en relation entre passagers et conducteurs (matching de trajets)</li>
+    <li>Gestion du portefeuille électronique (wallet) et des paiements liés aux trajets</li>
+    <li>Vérification de l'identité et de l'habilitation à conduire des conducteurs</li>
+    <li>Sécurité du service (suivi du trajet en temps réel, prévention de la fraude)</li>
+    <li>Support client et gestion des réclamations</li>
+    <li>Amélioration du service et suivi de la qualité (notation, statistiques d'usage)</li>
+  </ul>
+
+  <h2>5. Destinataires des données</h2>
+  <p>Les données sont partagées avec les tiers suivants, dans la limite de ce qui est nécessaire à l'exécution du service :</p>
+  <ul>
+    <li>Opérateurs de Mobile Money (MTN, Moov) pour le traitement des paiements liés au portefeuille électronique</li>
+    <li>Amazon Web Services (AWS), pour l'hébergement de l'infrastructure technique de l'application</li>
+  </ul>
+  <div class="note">Les données étant hébergées chez AWS, situé hors de la République du Bénin, ce transfert hors du territoire national doit faire l'objet d'une déclaration ou d'une autorisation auprès de l'APDP conformément au Code du Numérique. Point ouvert à valider avec un conseil juridique avant publication.</div>
+
+  <h2>6. Durée de conservation</h2>
+  <p>Les données sont conservées pendant la durée d'utilisation active du compte. En cas de suppression du compte, les données sont conservées 1 mois supplémentaire avant suppression définitive, délai nécessaire au traitement des éventuelles réclamations et obligations légales et comptables applicables (notamment les données liées aux transactions du portefeuille électronique).</p>
+  <div class="note">Point à confirmer avec un conseil juridique : la durée de 1 mois est-elle suffisante au regard des obligations comptables OHADA applicables aux données de transactions financières (généralement conservées plus longtemps à des fins fiscales), ou faut-il distinguer une conservation plus longue pour ces seules données.</div>
+
+  <h2>7. Sécurité des données</h2>
+  <p>MotoCar met en œuvre les mesures techniques et organisationnelles raisonnables pour protéger les données contre l'accès non autorisé, la perte, l'altération ou la divulgation, notamment le chiffrement des données sensibles et la limitation des accès internes selon le principe du besoin d'en connaître.</p>
+
+  <h2>8. Droits des utilisateurs</h2>
+  <p>Conformément au Code du Numérique, chaque utilisateur dispose des droits suivants sur ses données :</p>
+  <div class="table-wrap">
+  <table>
+    <tbody>
+      <tr><td class="label" style="width:32%">Droit à l'information préalable</td><td>Être informé, avant toute collecte, des finalités du traitement et de son droit de s'y opposer.</td></tr>
+      <tr><td class="label">Droit d'accès</td><td>Obtenir la confirmation que des données le concernant sont traitées, et en obtenir une copie.</td></tr>
+      <tr><td class="label">Droit de rectification</td><td>Faire corriger des données inexactes ou incomplètes.</td></tr>
+      <tr><td class="label">Droit de suppression</td><td>Demander la suppression de son compte et des données associées, sous réserve des durées de conservation légales (voir section 6).</td></tr>
+      <tr><td class="label">Droit d'opposition</td><td>S'opposer, pour motif légitime, à un traitement de ses données.</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>Ces droits peuvent être exercés en contactant l'adresse dédiée <a href="mailto:contact@motocar.pro">contact@motocar.pro</a>.</p>
+
+  <h2>9. Modifications de la présente politique</h2>
+  <p>MotoCar peut modifier la présente politique de confidentialité. Toute modification substantielle sera notifiée aux utilisateurs via l'application avant son entrée en vigueur.</p>
+
+  <h2>10. Contact</h2>
+  <p>Pour toute question relative à la présente politique ou au traitement de vos données, vous pouvez contacter ServLink par email à <a href="mailto:contact@motocar.pro">contact@motocar.pro</a> ou par téléphone au +229 01 29 77 62 70.</p>
+
+  <footer>Document de travail — MotoCar, Bénin. Dernière mise à jour : à compléter avant publication.</footer>
+</div>
+</body>
+</html>
